@@ -24,7 +24,8 @@ if(BUILD_TESTING)
 endif()
 
 
-install(DIRECTORY launch
+install(
+  DIRECTORY launch robot_description
   DESTINATION share/${PROJECT_NAME}
 )
 
